@@ -16,7 +16,7 @@ services:
     
     # Build configuration
     build_command: |
-      npm ci --production=false
+      npm ci --production=false --legacy-peer-deps
       npm run build
     
     # Runtime configuration
